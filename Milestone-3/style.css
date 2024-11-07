@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+}
+
+form {
+    margin: auto;
+    border: 4px lightskyblue;
+    background-color:rgb(0, 72, 100);
+    border-radius: 8px;
+    box-shadow: 0 8px 8px  rgba(0, 37, 85, 0.5);
+    border-style: double ;
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+fieldset {
+    border: 4px solid rgb(179, 227, 255);
+    border-radius: 8px;
+    border-style: double;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(93, 140, 155);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: whitesmoke;
+   font-size: 20px;
+   text-decoration: underline;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color:rgb(4, 22, 56);
+    font-size: 19px;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 2px solid rgb(0, 49, 71);
+    border-radius: 4px;
+    border-style:inherit;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px lightcyan
+
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgb(15, 143, 182);
+    color: black;
+    border-style: double , 5px;
+    border-radius: 4px;
+    box-shadow: 0 6px 8px rgba(169, 221, 243, 0.788);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;}
+
+ button:hover{
+color: rgb(255, 255, 255);
+ }
+ #generated-resume {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 5px rgb(2, 43, 68);
+    border-radius: 8px;
+    border-style: double;
+    display: block;
+    background-color: rgb(15, 143, 182);
+    box-shadow: 0 8px 8px  rgba(0, 37, 85, 0.5);
+
+
+}
+
+#generated-resume h2 {
+    color:seashell;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 6px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 3px 3px black;
+
+}
+#generated-resume h3{
+    color: whitesmoke;
+    font-size: 21px;
+    border:  2px solid rgb(150, 220, 248);
+    box-shadow: 0 2px 2px whitesmoke;
+    margin-right: 75px;
+    padding-left: 18px;
+    background-color:rgb(0, 72, 100);
+    text-shadow: 0 3px 3px black;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#generated-resume p{
+font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+box-shadow: 0 1px 1px aliceblue
+
+}

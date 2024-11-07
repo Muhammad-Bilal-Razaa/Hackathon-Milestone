@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic-Resume</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Dynamic resume -->
+ <form id="resume-form">
+
+    <fieldset>
+        <legend>Personal Information</legend>
+<label for="name"> Name :</label>
+<input type="text"  id="name" placeholder="Enter Your Name" required>
+
+<label for="fname"> Father Name :</label>
+<input type="text" id="fname" placeholder="Enter Your Father Name" required>
+
+<label for="status">Marital Status :</label>
+<input type="text" id="status" placeholder="Enter Your Status" required>
+
+
+<label for="phone"> Phone No : </label>
+<input type="tel"  id="phone" placeholder="Enter your Phone Number" required>
+
+<label for="mail">Email-Adress :</label>
+<input type="email" id="mail" placeholder="Enter Your Email-Adress" required>
+
+<label for="cnic"> CNIC :</label>
+<input type="number"  id="cnic" placeholder="Enter Your CNIC NUmber" required>
+
+<label for="age"> Age :</label>
+<input type="number"  id="age" placeholder="Enter Your Age" required>
+
+
+
+
+
+    </fieldset>
+
+    <fieldset >
+        <legend> Education</legend>
+
+        <label for="education"> Education : </label>
+<textarea  id="education"   rows="5" placeholder="Enter Your Education Background" required>
+</textarea>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Experience</legend>
+        <label for="experience"> Experience : </label>
+        <textarea  id="experience" rows="3" placeholder="Enter Your Working Experience" required></textarea>
+    </fieldset>
+
+    <fieldset>
+        <legend>Skills</legend>
+        <label for="skills">Skills : </label>
+        <textarea id="skills" rows="5" placeholder=" Enter Your skills Here" required></textarea>
+    </fieldset>
+
+ 
+
+    <button type="submit"><b>Generate Resume</b></button>
+
+ </form>
+ <br> 
+
+<div id="generated-resume">
+    <!-- The generated resume will be displayed -->
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
